@@ -30,7 +30,7 @@ const RepDescription = () => {
 						return (
 							<div
 								key={rep.title}
-								className="md:w-[430px] w-full bg-white mb-5 rounded-lg flex items-center justify-between md:p-8 py-8 px-4 border border-gray-200"
+								className="md:w-[430px] w-full h-[300px] bg-white mb-5 rounded-lg flex items-center justify-between md:p-8 py-8 px-4 border border-gray-200"
 							>
 								<div className="flex flex-col items-start gap-3">
 									<img
@@ -38,7 +38,7 @@ const RepDescription = () => {
 										alt={rep.title}
 										className="w-[70px]"
 									/>
-									<span className="font-semibold text-lime-500 text-[22px] w-full">
+									<span className="font-semibold text-lime-500 text-[20px] w-full">
 										{rep.title}
 									</span>
 									<div className="flex flex-col gap-[6px]">
